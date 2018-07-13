@@ -1,0 +1,79 @@
+.btn {
+    @apply py-2 px-4 rounded;
+}
+
+/*
+    Colored buttons
+*/
+
+.btn-blue {
+    @apply bg-blue text-white;
+}
+
+.btn-blue:hover {
+    @apply bg-blue-dark;
+}
+
+.btn-red {
+    @apply bg-red text-white;
+}
+
+.btn-red:hover {
+    @apply bg-red-dark;
+}
+
+.btn-orange {
+    @apply bg-orange text-white;
+}
+
+.btn-orange:hover {
+    @apply bg-orange-dark text-white;
+}
+
+.btn-yellow {
+    @apply bg-yellow text-white;
+}
+
+.btn-yellow:hover {
+    @apply bg-yellow-dark text-white;
+}
+
+.btn-green {
+    @apply bg-green text-white;
+}
+
+.btn-green:hover {
+    @apply bg-green-dark text-white;
+}
+
+.btn-teal {
+    @apply bg-teal text-white;
+}
+
+.btn-teal:hover {
+    @apply bg-teal-dark text-white;
+}
+
+.btn-indigo {
+    @apply bg-indigo text-white;
+}
+
+.btn-indigo:hover {
+    @apply bg-indigo-dark text-white;
+}
+
+.btn-purple {
+    @apply bg-purple text-white;
+}
+
+.btn-purple:hover {
+    @apply bg-purple-dark text-white;
+}
+
+.btn-pink {
+    @apply bg-pink text-white;
+}
+
+.btn-pink:hover {
+    @apply bg-pink-dark text-white;
+}

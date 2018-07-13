@@ -623,12 +623,12 @@ button,
 }
 
 /**
-  * This injects any component classes registered by plugins.
-  *
-  * If using `postcss-import`, use this import instead:
-  *
-  * @import "tailwindcss/components";
-  */
+ * This injects any component classes registered by plugins.
+ *
+ * If using `postcss-import`, use this import instead:
+ *
+ * @import "tailwindcss/components";
+ */
 
 .container {
   width: 100%;
@@ -659,29 +659,129 @@ button,
 }
 
 /**
-  * Here you would add any of your custom component classes; stuff that you'd
-  * want loaded *before* the utilities so that the utilities could still
-  * override them.
-  *
-  * Example:
-  *
-  * .btn { ... }
-  * .form-input { ... }
-  *
-  * Or if using a preprocessor or `postcss-import`:
-  *
-  * @import "components/buttons";
-  * @import "components/forms";
-  */
+ * Here you would add any of your custom component classes; stuff that you'd
+ * want loaded *before* the utilities so that the utilities could still
+ * override them.
+ *
+ * Example:
+ *
+ * .btn { ... }
+ * .form-input { ... }
+ *
+ * Or if using a preprocessor or `postcss-import`:
+ *
+ * @import "components/buttons";
+ * @import "components/forms";
+ */
 
 /**
-  * This injects all of Tailwind's utility classes, generated based on your
-  * config file.
-  *
-  * If using `postcss-import`, use this import instead:
-  *
-  * @import "tailwindcss/utilities";
-  */
+ * This injects all of Tailwind's utility classes, generated based on your
+ * config file.
+ *
+ * If using `postcss-import`, use this import instead:
+ *
+ * @import "tailwindcss/utilities";
+ */
+
+.btn {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: .25rem;
+}
+
+/*
+    Colored buttons
+*/
+
+.btn-blue {
+  background-color: #3490dc;
+  color: #fff;
+}
+
+.btn-blue:hover {
+  background-color: #2779bd;
+}
+
+.btn-red {
+  background-color: #e3342f;
+  color: #fff;
+}
+
+.btn-red:hover {
+  background-color: #cc1f1a;
+}
+
+.btn-orange {
+  background-color: #f6993f;
+  color: #fff;
+}
+
+.btn-orange:hover {
+  background-color: #de751f;
+  color: #fff;
+}
+
+.btn-yellow {
+  background-color: #ffed4a;
+  color: #fff;
+}
+
+.btn-yellow:hover {
+  background-color: #f2d024;
+  color: #fff;
+}
+
+.btn-green {
+  background-color: #38c172;
+  color: #fff;
+}
+
+.btn-green:hover {
+  background-color: #1f9d55;
+  color: #fff;
+}
+
+.btn-teal {
+  background-color: #4dc0b5;
+  color: #fff;
+}
+
+.btn-teal:hover {
+  background-color: #38a89d;
+  color: #fff;
+}
+
+.btn-indigo {
+  background-color: #6574cd;
+  color: #fff;
+}
+
+.btn-indigo:hover {
+  background-color: #5661b3;
+  color: #fff;
+}
+
+.btn-purple {
+  background-color: #9561e2;
+  color: #fff;
+}
+
+.btn-purple:hover {
+  background-color: #794acf;
+  color: #fff;
+}
+
+.btn-pink {
+  background-color: #f66d9b;
+  color: #fff;
+}
+
+.btn-pink:hover {
+  background-color: #eb5286;
+  color: #fff;
+}
 
 .list-reset {
   list-style: none;
@@ -4583,19 +4683,19 @@ button,
 }
 
 /**
-  * Here you would add any custom utilities you need that don't come out of the
-  * box with Tailwind.
-  *
-  * Example :
-  *
-  * .bg-pattern-graph-paper { ... }
-  * .skew-45 { ... }
-  *
-  * Or if using a preprocessor or `postcss-import`:
-  *
-  * @import "utilities/background-patterns";
-  * @import "utilities/skew-transforms";
-  */
+ * Here you would add any custom utilities you need that don't come out of the
+ * box with Tailwind.
+ *
+ * Example :
+ *
+ * .bg-pattern-graph-paper { ... }
+ * .skew-45 { ... }
+ *
+ * Or if using a preprocessor or `postcss-import`:
+ *
+ * @import "utilities/background-patterns";
+ * @import "utilities/skew-transforms";
+ */
 
 @media (min-width: 576px) {
   .sm\:list-reset {
