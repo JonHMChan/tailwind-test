@@ -1,0 +1,14 @@
+{
+  "name": "tailwind-test",
+  "version": "1.0.0",
+  "description": "A test project for Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jon H.M. Chan",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^0.6.3"
+  }
+}
